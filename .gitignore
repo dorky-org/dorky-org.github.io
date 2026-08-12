@@ -3,3 +3,11 @@ node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 .claude/*
+
+# ⚠️ 腾讯云密钥，绝对不能提交
+.env
+
+# 发布脚本的产物和缓存，都可以重新生成
+发布/
+_工具/.upload-cache.json
+_工具/.png-cache/

@@ -1,3 +1,10 @@
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { autoSidebar } from './sidebar.mjs'
+
+// docs/ 的绝对路径（本文件在 docs/.vitepress/ 下，往上一层就是 docs/）
+const DOCS_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+
 export default {
   lang: 'zh-CN',
   title: '具身智能学习笔记',
@@ -21,26 +28,8 @@ export default {
       // { text: 'ROS', link: '/ROS/' },
     ],
 
-    // ★ 扩展点 2：以后加分类，这里加一个同名 key
-    sidebar: {
-      '/数学基础/': [
-        {
-          text: '开始',
-          items: [
-            { text: '关于这个分类', link: '/数学基础/' },
-            { text: '测试页', link: '/数学基础/测试页' }
-          ]
-        }
-        // 整理好一个模块，就在这里加一组：
-        // {
-        //   text: '高中',
-        //   collapsed: false,
-        //   items: [
-        //     { text: '01 集合与逻辑', link: '/数学基础/高中/01-集合与逻辑/集合与逻辑' }
-        //   ]
-        // }
-      ]
-    },
+    // 侧边栏自动扫描 docs/ 生成，新增 md 文件无需改配置
+    sidebar: autoSidebar(DOCS_ROOT),
 
     search: {
       provider: 'local',
