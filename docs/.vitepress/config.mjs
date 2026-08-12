@@ -42,7 +42,47 @@ export default {
       ]
     },
 
-    search: { provider: 'local' },
+    search: {
+      provider: 'local',
+      options: {
+        miniSearch: {
+          options: {
+            // 中文按单字切分，英文/数字保持整词。不加这个，中文搜不到
+            tokenize: (text) =>
+              text.split(
+                /[\n\r\p{Z}\p{P}]+|(?![a-zA-Z])(?=[\p{Script=Han}])|(?<=[\p{Script=Han}])(?![a-zA-Z])/u
+              )
+          },
+          searchOptions: {
+            combineWith: 'AND',   // 所有字都要命中，否则中文单字会匹配出一堆无关结果
+            fuzzy: 0.2,
+            prefix: true
+          }
+        },
+        // 搜索框界面汉化
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            displayDetails: '显示详细列表',
+            resetButtonTitle: '清除查询条件',
+            backButtonTitle: '返回',
+            noResultsText: '没有找到相关结果',
+            footer: {
+              selectText: '选择',
+              selectKeyAriaLabel: '回车',
+              navigateText: '切换',
+              navigateUpKeyAriaLabel: '上箭头',
+              navigateDownKeyAriaLabel: '下箭头',
+              closeText: '关闭',
+              closeKeyAriaLabel: 'esc'
+            }
+          }
+        }
+      }
+    },
 
     // TODO: 把 your-username 换成你的 GitHub 用户名
     socialLinks: [
