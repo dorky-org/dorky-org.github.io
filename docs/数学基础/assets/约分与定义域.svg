@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 460" width="580" height="460" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="580" height="460" fill="#ffffff"/>
+  <text x="290" y="30" text-anchor="middle" font-size="16" fill="#212529">约分会改变定义域</text>
+
+  <!-- 坐标轴：原点 (250,300)，每单位 42 -->
+  <line x1="90" y1="300" x2="392" y2="300" stroke="#495057" stroke-width="1.6"/>
+  <polygon points="392,300 383,296 383,304" fill="#495057"/>
+  <line x1="250" y1="370" x2="250" y2="123" stroke="#495057" stroke-width="1.6"/>
+  <polygon points="250,123 246,132 254,132" fill="#495057"/>
+
+  <!-- 轴名与原点：都放在离线条 12 像素以上的空白处 -->
+  <text x="388" y="322" text-anchor="middle" font-size="13" fill="#495057">x</text>
+  <text x="266" y="134" text-anchor="start" font-size="13" fill="#495057">y</text>
+  <text x="238" y="320" text-anchor="end" font-size="13" fill="#495057">O</text>
+
+  <!-- 直线 y = x + 1 -->
+  <line x1="124" y1="384" x2="368" y2="140" stroke="#1c7ed6" stroke-width="2.5"/>
+
+  <!-- 刻度：短线在轴上，数字避开轴线 -->
+  <line x1="292" y1="295" x2="292" y2="305" stroke="#495057" stroke-width="1.6"/>
+  <text x="292" y="322" text-anchor="middle" font-size="12" fill="#495057">1</text>
+  <line x1="245" y1="216" x2="255" y2="216" stroke="#495057" stroke-width="1.6"/>
+  <text x="236" y="221" text-anchor="end" font-size="12" fill="#495057">2</text>
+
+  <!-- 被挖掉的点 (1,2)，标注引到直线右侧的空白区 -->
+  <line x1="301" y1="211" x2="362" y2="178" stroke="#d9480f" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="292" cy="216" r="5.5" fill="#ffffff" stroke="#d9480f" stroke-width="2.5"/>
+  <text x="368" y="172" text-anchor="start" font-size="13" fill="#d9480f">这一点被挖掉</text>
+
+  <text x="290" y="415" text-anchor="middle" font-size="14" fill="#1c7ed6">y = x + 1（x ≠ 1）</text>
+  <text x="290" y="443" text-anchor="middle" font-size="13" fill="#495057">约分前分母不能为零，这个限制必须保留</text>
+</svg>

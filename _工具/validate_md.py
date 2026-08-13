@@ -36,15 +36,14 @@ def check(path):
                 if ch in span:
                     errs.append(f'L{i}: 公式内含裸字符 {ch!r}（应改用 {fix}）: {span[:40]}')
 
-    # 图片引用 vs 实际文件
+    # 图片引用 vs 实际文件（assets/ 由同目录下所有 md 共用，
+    # 所以"未被引用"只能等全部文件扫完再在 main() 里统一判断）
     d = os.path.dirname(path)
     refs = set(re.findall(r'!\[[^\]]*\]\(assets/([^)]+)\)', s))
     adir = os.path.join(d, 'assets')
     files = set(os.listdir(adir)) if os.path.isdir(adir) else set()
     for miss in sorted(refs - files):
         errs.append(f"引用了不存在的图片: assets/{miss}")
-    for unused in sorted(files - refs):
-        errs.append(f"图片存在但未被引用: assets/{unused}")
 
     # 目录 vs 正文标题
     heads = [h.strip() for h in re.findall(r'^## (.+)$', s, re.M)
@@ -57,7 +56,7 @@ def check(path):
         for h in heads:
             if h not in [t.strip() for t in toc]:
                 errs.append(f"正文标题未出现在目录中: {h}")
-    return errs
+    return errs, adir, refs
 
 
 def main():
@@ -68,13 +67,27 @@ def main():
     for pat in sys.argv[1:]:
         paths += glob.glob(pat)
     bad = 0
+    used = {}   # assets 目录 -> 被所有 md 引用到的图片名集合
     for p in sorted(paths):
-        e = check(p)
+        e, adir, refs = check(p)
+        used.setdefault(adir, set()).update(refs)
         if e:
             bad += 1
             print(f"=== {p} ===")
             for x in e[:12]:
                 print("  ", x)
+
+    # assets/ 是同目录下所有笔记共用的，扫完全部文件后才能判断哪些图没人用
+    for adir, refs in used.items():
+        if not os.path.isdir(adir):
+            continue
+        unused = sorted(set(os.listdir(adir)) - refs)
+        if unused:
+            bad += 1
+            print(f"=== {adir} ===")
+            for u in unused[:12]:
+                print("   图片存在但未被任何笔记引用:", u)
+
     print(f"\n检查 {len(paths)} 个文件，{bad} 个有问题")
 
 

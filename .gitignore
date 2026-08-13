@@ -11,3 +11,6 @@ docs/.vitepress/cache/
 发布/
 _工具/.upload-cache.json
 _工具/.png-cache/
+
+# 个人学习计划，不发布
+docs/数学基础/学习路径.md

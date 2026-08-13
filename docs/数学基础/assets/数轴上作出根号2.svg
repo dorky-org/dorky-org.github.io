@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" width="620" height="340" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="620" height="340" fill="#ffffff"/>
+  <text x="310" y="30" text-anchor="middle" font-size="16" fill="#212529">用单位正方形的对角线作出根号 2</text>
+
+  <!-- 数轴，原点 (100,250)，每单位 95 -->
+  <line x1="62" y1="250" x2="440" y2="250" stroke="#495057" stroke-width="1.6"/>
+  <polygon points="440,250 431,246 431,254" fill="#495057"/>
+  <line x1="100" y1="245" x2="100" y2="255" stroke="#495057" stroke-width="1.6"/>
+  <line x1="195" y1="245" x2="195" y2="255" stroke="#495057" stroke-width="1.6"/>
+  <line x1="290" y1="245" x2="290" y2="255" stroke="#495057" stroke-width="1.6"/>
+  <line x1="385" y1="245" x2="385" y2="255" stroke="#495057" stroke-width="1.6"/>
+  <text x="100" y="270" text-anchor="middle" font-size="13" fill="#495057">0</text>
+  <text x="195" y="270" text-anchor="middle" font-size="13" fill="#495057">1</text>
+  <text x="290" y="270" text-anchor="middle" font-size="13" fill="#495057">2</text>
+  <text x="385" y="270" text-anchor="middle" font-size="13" fill="#495057">3</text>
+
+  <!-- 单位正方形 -->
+  <rect x="100" y="155" width="95" height="95" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2"/>
+  <text x="90" y="207" text-anchor="end" font-size="13" fill="#1c7ed6">1</text>
+  <text x="147" y="147" text-anchor="middle" font-size="13" fill="#1c7ed6">1</text>
+
+  <!-- 对角线 -->
+  <line x1="100" y1="250" x2="195" y2="155" stroke="#d9480f" stroke-width="2.5"/>
+  <text x="205" y="152" text-anchor="start" font-size="13" fill="#d9480f">对角线</text>
+
+  <!-- 以原点为圆心，对角线长为半径的弧，落到数轴上 -->
+  <path d="M 195 155 A 134.35 134.35 0 0 1 234.35 250" fill="none" stroke="#2f9e44" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="234.35" cy="250" r="4.5" fill="#2f9e44"/>
+
+  <!-- 手工绘制的根号：钩 + 横杠，被开方数是 2 -->
+  <path d="M 223.08 284.64 L 227.08 289.76 L 231.24 275.68 L 245.32 275.68" fill="none" stroke="#2f9e44" stroke-width="1.52" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="233" y="292" text-anchor="start" font-size="16" fill="#2f9e44">2</text>
+
+  <text x="310" y="320" text-anchor="middle" font-size="13" fill="#495057">对角线长度就是根号 2，用圆规转到数轴上</text>
+</svg>

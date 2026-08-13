@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="700" height="360" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="700" height="360" fill="#ffffff"/>
+  <text x="350" y="30" text-anchor="middle" font-size="16" fill="#212529">平方差公式的面积解释</text>
+
+  <!-- ===== 左边：大正方形挖去小正方形，剩下 L 形，沿虚线剪成两块 ===== -->
+  <rect x="60" y="70" width="110" height="180" fill="#ffe8cc"/>
+  <rect x="170" y="70" width="70" height="110" fill="#d0ebff"/>
+  <polygon points="60,70 240,70 240,180 170,180 170,250 60,250" fill="none" stroke="#495057" stroke-width="2"/>
+  <rect x="170" y="180" width="70" height="70" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="170" y1="70" x2="170" y2="180" stroke="#c92a2a" stroke-width="2.2" stroke-dasharray="8 5"/>
+
+  <text x="115" y="146" text-anchor="middle" font-size="17" fill="#d9480f">①</text>
+  <text x="205" y="131" text-anchor="middle" font-size="17" fill="#1c7ed6">②</text>
+  <text x="205" y="222" text-anchor="middle" font-size="13" fill="#adb5bd">挖去</text>
+
+  <text x="150" y="58" text-anchor="middle" font-size="14" fill="#495057">a</text>
+  <text x="46" y="165" text-anchor="end" font-size="14" fill="#495057">a</text>
+  <text x="260" y="130" text-anchor="start" font-size="14" fill="#495057">a−b</text>
+  <text x="260" y="222" text-anchor="start" font-size="14" fill="#495057">b</text>
+  <text x="150" y="292" text-anchor="middle" font-size="13" fill="#495057">面积 a²−b²，沿红色虚线剪开</text>
+
+  <!-- ===== 中间箭头 ===== -->
+  <line x1="300" y1="160" x2="366" y2="160" stroke="#495057" stroke-width="2"/>
+  <polygon points="366,160 356,155 356,165" fill="#495057"/>
+  <text x="333" y="146" text-anchor="middle" font-size="13" fill="#495057">①转 90°</text>
+
+  <!-- ===== 右边：①旋转 90 度后与②沿虚线拼接 ===== -->
+  <rect x="400" y="115" width="180" height="110" fill="#ffe8cc"/>
+  <rect x="580" y="115" width="70" height="110" fill="#d0ebff"/>
+  <rect x="400" y="115" width="250" height="110" fill="none" stroke="#495057" stroke-width="2"/>
+  <line x1="580" y1="115" x2="580" y2="225" stroke="#c92a2a" stroke-width="2.2" stroke-dasharray="8 5"/>
+
+  <text x="490" y="176" text-anchor="middle" font-size="17" fill="#d9480f">①</text>
+  <text x="615" y="176" text-anchor="middle" font-size="17" fill="#1c7ed6">②</text>
+
+  <text x="490" y="103" text-anchor="middle" font-size="14" fill="#495057">a</text>
+  <text x="615" y="103" text-anchor="middle" font-size="14" fill="#495057">b</text>
+  <text x="390" y="175" text-anchor="end" font-size="14" fill="#495057">a−b</text>
+  <text x="525" y="292" text-anchor="middle" font-size="13" fill="#495057">沿红色虚线拼成宽 a+b 的矩形</text>
+
+  <text x="350" y="336" text-anchor="middle" font-size="14" fill="#212529">面积没变，所以 a²−b²=(a+b)(a−b)</text>
+</svg>
