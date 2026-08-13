@@ -1,9 +1,56 @@
+import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { autoSidebar } from './sidebar.mjs'
 
 // docs/ 的绝对路径（本文件在 docs/.vitepress/ 下，往上一层就是 docs/）
 const DOCS_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+
+// 新增或删除 md 文件时自动重启 dev server。
+//
+// 为什么需要：侧边栏是 autoSidebar() 在「配置求值那一刻」扫一次磁盘生成的。
+// 新建一篇笔记不会改动配置文件，VitePress 就不会重启，侧边栏一直停在启动时的
+// 快照上——新笔记必须手动 Ctrl+C 重启才看得到。
+//
+// 为什么不用 server.restart()：本站开了 search.provider = 'local'，
+// Vite 层的 restart 会让 MiniSearch 把同一篇文章重复入库，
+// 报 "duplicate ID" 并 "server restart failed"，重启实际不生效。
+// 改成碰一下本配置文件的时间戳，走 VitePress 自带的配置热重启，那条路径是好的。
+function restartOnNewMarkdown() {
+  const CONFIG_FILE = fileURLToPath(import.meta.url)
+  const sep = path.sep
+  const isNote = (file) =>
+    file.endsWith('.md') &&
+    file.includes(`${sep}docs${sep}`) &&
+    !file.includes(`${sep}发布${sep}`) &&
+    !file.includes(`${sep}node_modules${sep}`)
+
+  return {
+    name: 'restart-on-new-md',
+    apply: 'serve',          // 只在 dev 生效，不影响 build
+    configureServer(server) {
+      // 重启后新 watcher 会把已有文件重放一遍 add 事件，
+      // 静默期内不理会，否则一次新增会连环触发好几次重启
+      const bootedAt = Date.now()
+      const GRACE_MS = 2000
+      let timer
+
+      const touchConfig = (file) => {
+        if (!isNote(file)) return
+        if (Date.now() - bootedAt < GRACE_MS) return
+        clearTimeout(timer)   // 批量新增合并成一次重启
+        timer = setTimeout(() => {
+          server.config.logger.info(`\n侧边栏有变动：${path.basename(file)}`)
+          const now = new Date()
+          fs.utimesSync(CONFIG_FILE, now, now)
+        }, 200)
+      }
+
+      server.watcher.on('add', touchConfig)
+      server.watcher.on('unlink', touchConfig)
+    }
+  }
+}
 
 export default {
   lang: 'zh-CN',
@@ -19,6 +66,10 @@ export default {
     '**/00-写作规范与要求.md',
     '**/_工具/**'
   ],
+
+  vite: {
+    plugins: [restartOnNewMarkdown()]
+  },
 
   themeConfig: {
     // ★ 扩展点 1：以后加分类，这里加一行
