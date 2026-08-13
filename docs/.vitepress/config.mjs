@@ -23,8 +23,8 @@ export default {
   themeConfig: {
     // ★ 扩展点 1：以后加分类，这里加一行
     nav: [
-      { text: '数学基础', link: '/数学基础/' }
-      // { text: 'Python', link: '/Python/' },
+      { text: '数学基础', link: '/数学基础/' },
+      { text: '编程基础', link: '/编程基础/' }
       // { text: 'ROS', link: '/ROS/' },
     ],
 

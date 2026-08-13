@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" width="780" height="430" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="780" height="430" fill="#ffffff"/>
+  <text x="390" y="32" text-anchor="middle" font-size="16" fill="#212529">同一个库有三种装法，装到的地方完全不同</text>
+
+  <!-- 第一张卡：apt -->
+  <rect x="30" y="58" width="215" height="288" rx="10" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="1.6"/>
+  <text x="48" y="88" font-size="16" fill="#1c7ed6">apt　系统包管理器</text>
+  <text x="48" y="120" font-size="12" fill="#212529" font-family="Menlo, Consolas, monospace">apt install libeigen3-dev</text>
+  <text x="48" y="156" font-size="12" fill="#868e96">装到哪</text>
+  <text x="48" y="178" font-size="13" fill="#495057">/usr/include、/usr/lib</text>
+  <text x="48" y="212" font-size="12" fill="#868e96">谁能用</text>
+  <text x="48" y="234" font-size="13" fill="#495057">全系统所有程序</text>
+  <text x="48" y="268" font-size="12" fill="#868e96">什么时候用</text>
+  <text x="48" y="290" font-size="13" fill="#495057">系统级依赖、显卡驱动</text>
+  <text x="48" y="314" font-size="13" fill="#495057">ROS 2 也是这样装的</text>
+
+  <!-- 第二张卡：pip -->
+  <rect x="283" y="58" width="215" height="288" rx="10" fill="#ebfbee" stroke="#2b8a3e" stroke-width="1.6"/>
+  <text x="301" y="88" font-size="16" fill="#2b8a3e">pip　Python 包管理器</text>
+  <text x="301" y="120" font-size="12" fill="#212529" font-family="Menlo, Consolas, monospace">pip install numpy</text>
+  <text x="301" y="156" font-size="12" fill="#868e96">装到哪</text>
+  <text x="301" y="178" font-size="13" fill="#495057">当前环境 site-packages</text>
+  <text x="301" y="212" font-size="12" fill="#868e96">谁能用</text>
+  <text x="301" y="234" font-size="13" fill="#495057">只有这一个虚拟环境</text>
+  <text x="301" y="268" font-size="12" fill="#868e96">什么时候用</text>
+  <text x="301" y="290" font-size="13" fill="#495057">装 Python 库</text>
+  <text x="301" y="314" font-size="13" fill="#c92a2a">前面永远别加 sudo</text>
+
+  <!-- 第三张卡：源码编译 -->
+  <rect x="536" y="58" width="215" height="288" rx="10" fill="#fff4e6" stroke="#d9480f" stroke-width="1.6"/>
+  <text x="554" y="88" font-size="16" fill="#d9480f">源码编译</text>
+  <text x="554" y="120" font-size="12" fill="#212529" font-family="Menlo, Consolas, monospace">cmake .. &amp;&amp; make install</text>
+  <text x="554" y="156" font-size="12" fill="#868e96">装到哪</text>
+  <text x="554" y="178" font-size="13" fill="#495057">/usr/local（默认）</text>
+  <text x="554" y="212" font-size="12" fill="#868e96">谁能用</text>
+  <text x="554" y="234" font-size="13" fill="#495057">全系统，且优先级高于</text>
+  <text x="554" y="256" font-size="13" fill="#495057">apt 装的那一份</text>
+  <text x="554" y="290" font-size="12" fill="#868e96">什么时候用</text>
+  <text x="554" y="312" font-size="13" fill="#495057">要指定版本或改源码</text>
+
+  <text x="390" y="386" text-anchor="middle" font-size="13" fill="#c92a2a">同一个库被 apt 和源码各装了一份，是最常见的诡异 bug 来源</text>
+  <text x="390" y="412" text-anchor="middle" font-size="13" fill="#495057">出问题时先问一句：我现在用的是哪一份</text>
+</svg>

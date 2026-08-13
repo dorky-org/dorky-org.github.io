@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 390" width="780" height="390" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="780" height="390" fill="#ffffff"/>
+  <text x="390" y="32" text-anchor="middle" font-size="16" fill="#212529">一行文件信息怎么读</text>
+
+  <!-- 主字符串：等宽字体，实测每字符约 11.1 像素，起点 x=60 -->
+  <text x="60" y="150" font-size="18" fill="#212529" font-family="Menlo, Consolas, monospace">-rwxr-xr-x 1 dorky dorky 4096 run.sh</text>
+
+  <!-- 三组权限的括号，画在字符串上方 -->
+  <polyline points="71,130 71,124 104,124 104,130" fill="none" stroke="#1c7ed6" stroke-width="1.8"/>
+  <polyline points="105,130 105,124 137,124 137,130" fill="none" stroke="#2b8a3e" stroke-width="1.8"/>
+  <polyline points="138,130 138,124 171,124 171,130" fill="none" stroke="#d9480f" stroke-width="1.8"/>
+
+  <!-- 引线：从括号中点斜拉到右上方的标签 -->
+  <line x1="88" y1="122" x2="190" y2="92" stroke="#1c7ed6" stroke-width="1.2"/>
+  <line x1="121" y1="122" x2="370" y2="92" stroke="#2b8a3e" stroke-width="1.2"/>
+  <line x1="154" y1="122" x2="550" y2="92" stroke="#d9480f" stroke-width="1.2"/>
+  <text x="196" y="76" font-size="13" fill="#1c7ed6">属主的权限</text>
+  <text x="376" y="76" font-size="13" fill="#2b8a3e">同组用户的权限</text>
+  <text x="556" y="76" font-size="13" fill="#d9480f">其他所有人的权限</text>
+
+  <!-- 下方标注 -->
+  <line x1="66" y1="168" x2="66" y2="196" stroke="#868e96" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="58" y="216" font-size="13" fill="#495057">类型：- 文件 d 目录 l 链接</text>
+
+  <line x1="265" y1="168" x2="265" y2="240" stroke="#868e96" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="265" y="264" text-anchor="middle" font-size="13" fill="#495057">属主用户 与 属主用户组</text>
+
+  <line x1="360" y1="168" x2="360" y2="278" stroke="#868e96" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="360" y="306" text-anchor="middle" font-size="13" fill="#495057">大小（字节）</text>
+
+  <line x1="426" y1="168" x2="500" y2="284" stroke="#868e96" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="488" y="306" font-size="13" fill="#495057">文件名</text>
+
+  <text x="390" y="356" text-anchor="middle" font-size="13" fill="#495057">前十个字符就是权限，看不懂它就解决不了串口打不开这类问题</text>
+</svg>

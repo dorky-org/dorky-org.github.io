@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 545" width="700" height="545" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="700" height="545" fill="#ffffff"/>
+  <text x="350" y="32" text-anchor="middle" font-size="16" fill="#212529">Linux 的目录树：一切都从根目录开始</text>
+
+  <!-- 根目录 -->
+  <rect x="40" y="70" width="70" height="36" rx="6" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="1.6"/>
+  <text x="75" y="94" text-anchor="middle" font-size="18" fill="#1c7ed6">/</text>
+
+  <!-- 主干竖线 -->
+  <line x1="75" y1="106" x2="75" y2="462" stroke="#adb5bd" stroke-width="1.6"/>
+
+  <!-- 各级目录：横向短线 + 路径名 + 说明 -->
+  <line x1="75" y1="140" x2="130" y2="140" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="145" font-size="15" fill="#1c7ed6">/bin</text>
+  <text x="285" y="145" font-size="13" fill="#495057">可执行程序，ros2、python3 都在这里</text>
+
+  <line x1="75" y1="186" x2="130" y2="186" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="191" font-size="15" fill="#1c7ed6">/etc</text>
+  <text x="285" y="191" font-size="13" fill="#495057">系统和软件的配置文件</text>
+
+  <line x1="75" y1="232" x2="130" y2="232" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="237" font-size="15" fill="#1c7ed6">/home/用户名</text>
+  <text x="285" y="237" font-size="13" fill="#495057">你的全部工作，可以写成 ~</text>
+
+  <line x1="75" y1="278" x2="130" y2="278" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="283" font-size="15" fill="#1c7ed6">/usr</text>
+  <text x="285" y="283" font-size="13" fill="#495057">系统装的库和头文件，编译时从这里找</text>
+
+  <line x1="75" y1="324" x2="130" y2="324" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="329" font-size="15" fill="#d9480f">/opt</text>
+  <text x="285" y="329" font-size="13" fill="#d9480f">第三方大软件，ROS 2 装在这里面</text>
+
+  <line x1="75" y1="370" x2="130" y2="370" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="375" font-size="15" fill="#1c7ed6">/var</text>
+  <text x="285" y="375" font-size="13" fill="#495057">日志，磁盘被写满通常是这里</text>
+
+  <line x1="75" y1="416" x2="130" y2="416" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="421" font-size="15" fill="#1c7ed6">/tmp</text>
+  <text x="285" y="421" font-size="13" fill="#495057">临时文件，重启就清空</text>
+
+  <line x1="75" y1="462" x2="130" y2="462" stroke="#adb5bd" stroke-width="1.6"/>
+  <text x="140" y="467" font-size="15" fill="#d9480f">/dev</text>
+  <text x="285" y="467" font-size="13" fill="#d9480f">设备文件，串口和相机都在这里</text>
+
+  <text x="350" y="508" text-anchor="middle" font-size="13" fill="#495057">没有 C 盘 D 盘：所有磁盘都挂载到某个目录下</text>
+  <text x="350" y="530" text-anchor="middle" font-size="13" fill="#495057">U 盘一般挂在 /media 里面</text>
+</svg>
