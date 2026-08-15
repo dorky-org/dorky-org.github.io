@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 450" width="940" height="450" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="940" height="450" fill="#ffffff"/>
+  <text x="470" y="34" text-anchor="middle" font-size="24" fill="#212529">特殊角的推导：两个三角形算出六个值</text>
+  <polygon points="150.0,330.0 374.0,330.0 262.0,136.0" fill="#d0ebff" stroke="#1c7ed6" stroke-width="3.6"/>
+  <line x1="262.0" y1="136.0" x2="262.0" y2="330.0" stroke="#e03131" stroke-width="2.6"/>
+  <polyline points="262.0,312.0 244.0,312.0 244.0,330.0" fill="none" stroke="#868e96" stroke-width="2.4"/>
+  
+  <line x1="206.0" y1="337.0" x2="206.0" y2="323.0" stroke="#868e96" stroke-width="2.4"/>
+  <line x1="318.0" y1="337.0" x2="318.0" y2="323.0" stroke="#868e96" stroke-width="2.4"/>
+  <circle cx="150.0" cy="330.0" r="6.5" fill="#212529"/><circle cx="374.0" cy="330.0" r="6.5" fill="#212529"/><circle cx="262.0" cy="136.0" r="6.5" fill="#212529"/><circle cx="262.0" cy="330.0" r="6" fill="#e03131"/>
+  <text x="262" y="364" text-anchor="middle" font-size="22" fill="#868e96">2</text>
+  <path d="M 263.9 310.0 L 270.4 318.4 L 277.1 295.5 L 300.0 295.5" fill="none" stroke="#e03131" stroke-width="2.47" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="280.0" y="322.0" text-anchor="start" font-size="26" fill="#e03131">3</text>
+  <text x="254" y="96" text-anchor="middle" font-size="20" fill="#f08c00">30°</text>
+  <text x="192" y="318" text-anchor="middle" font-size="20" fill="#f08c00">60°</text>
+  <text x="284" y="410" text-anchor="middle" font-size="22" fill="#212529">等边三角形对半分</text>
+  <polygon points="640.0,330.0 752.0,330.0 752.0,218.0" fill="#ffe8cc" stroke="#f08c00" stroke-width="3.6"/>
+  <polyline points="752.0,312.0 734.0,312.0 734.0,330.0" fill="none" stroke="#868e96" stroke-width="2.4"/>
+  <circle cx="640.0" cy="330.0" r="6.5" fill="#212529"/><circle cx="752.0" cy="330.0" r="6.5" fill="#212529"/><circle cx="752.0" cy="218.0" r="6.5" fill="#212529"/>
+  <text x="696" y="364" text-anchor="middle" font-size="22" fill="#868e96">1</text><text x="782" y="274" text-anchor="middle" font-size="22" fill="#868e96">1</text>
+  <path d="M 671.9 226.0 L 678.4 234.4 L 685.1 211.5 L 708.0 211.5" fill="none" stroke="#f08c00" stroke-width="2.47" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="688.0" y="238.0" text-anchor="start" font-size="26" fill="#f08c00">2</text>
+  <text x="678" y="318" text-anchor="middle" font-size="20" fill="#e03131">45°</text>
+  <text x="732" y="282" text-anchor="middle" font-size="20" fill="#e03131">45°</text>
+  <text x="690" y="410" text-anchor="middle" font-size="22" fill="#212529">等腰直角三角形</text>
+</svg>

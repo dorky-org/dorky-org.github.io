@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 330" width="700" height="330" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="700" height="330" fill="#ffffff"/>
+  <text x="350" y="28" text-anchor="middle" font-size="16" fill="#212529">仰角俯角与坡度坡角</text>
+  <line x1="50.0" y1="175.0" x2="280.0" y2="175.0" stroke="#868e96" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <line x1="140.0" y1="175.0" x2="267.2" y2="95.5" stroke="#e03131" stroke-width="2.2"/><line x1="140.0" y1="175.0" x2="281.0" y2="226.3" stroke="#1c7ed6" stroke-width="2.2"/>
+  <path d="M 174.0 175.0 A 34 34 0 0 0 168.8 157.0" fill="none" stroke="#e03131" stroke-width="1.8"/>
+  <line x1="167.9" y1="167.0" x2="177.5" y2="164.3" stroke="#e03131" stroke-width="1.6"/>
+  <path d="M 174.0 175.0 A 34 34 0 0 1 171.9 186.6" fill="none" stroke="#1c7ed6" stroke-width="1.8"/>
+  <line x1="168.6" y1="180.0" x2="178.4" y2="181.8" stroke="#1c7ed6" stroke-width="1.6"/>
+  <circle cx="140.0" cy="175.0" r="4.4" fill="#212529"/><circle cx="267.2" cy="95.5" r="3.6" fill="#e03131"/><circle cx="281.0" cy="226.3" r="3.6" fill="#1c7ed6"/>
+  <text x="124" y="159" text-anchor="end" font-size="12" fill="#868e96">观测点</text>
+  <text x="204" y="135" text-anchor="middle" font-size="13" fill="#e03131">仰角</text>
+  <text x="204" y="215" text-anchor="middle" font-size="13" fill="#1c7ed6">俯角</text>
+  <text x="277" y="92" text-anchor="start" font-size="12" fill="#e03131">目标</text>
+  <text x="291" y="240" text-anchor="start" font-size="12" fill="#1c7ed6">目标</text>
+  <text x="165" y="280" text-anchor="middle" font-size="15" fill="#212529">仰角、俯角</text>
+  <text x="165" y="304" text-anchor="middle" font-size="12" fill="#868e96">视线与水平线的夹角</text>
+  <polygon points="430.0,220.0 606.0,220.0 606.0,88.0" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2.2"/>
+  <polyline points="606.0,211.0 597.0,211.0 597.0,220.0" fill="none" stroke="#868e96" stroke-width="1.6"/>
+  <path d="M 460.0 220.0 A 30 30 0 0 0 454.0 202.0" fill="none" stroke="#f08c00" stroke-width="1.8"/>
+  <line x1="453.7" y1="212.1" x2="463.2" y2="208.9" stroke="#f08c00" stroke-width="1.6"/>
+  <circle cx="430.0" cy="220.0" r="3.6" fill="#212529"/><circle cx="606.0" cy="220.0" r="3.6" fill="#212529"/><circle cx="606.0" cy="88.0" r="3.6" fill="#212529"/>
+  <text x="518" y="240" text-anchor="middle" font-size="13" fill="#868e96">水平距离 l</text>
+  <text x="622" y="154" text-anchor="start" font-size="13" fill="#868e96">竖直高度 h</text>
+  <text x="480" y="196" text-anchor="middle" font-size="13" fill="#f08c00">坡角 α</text>
+  <text x="445" y="280" text-anchor="middle" font-size="15" fill="#212529">坡度与坡角</text>
+  <text x="445" y="304" text-anchor="middle" font-size="13" fill="#868e96">坡度 i = h / l = tan α</text>
+</svg>

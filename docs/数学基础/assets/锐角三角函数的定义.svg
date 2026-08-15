@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="700" height="350" fill="#ffffff"/>
+  <text x="350" y="28" text-anchor="middle" font-size="16" fill="#212529">锐角三角函数的定义</text>
+  <polygon points="90.0,300.0 402.0,300.0 90.0,98.4" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2.4"/>
+  <polyline points="101.0,300.0 101.0,289.0 90.0,289.0" fill="none" stroke="#868e96" stroke-width="1.7"/>
+  <path d="M 373.4 281.5 A 34 34 0 0 0 368.0 300.0" fill="none" stroke="#e03131" stroke-width="1.8"/>
+  <line x1="374.2" y1="291.8" x2="364.6" y2="289.0" stroke="#e03131" stroke-width="1.6"/>
+  <path d="M 90.0 124.4 A 26 26 0 0 0 111.8 112.5" fill="none" stroke="#f08c00" stroke-width="1.8"/>
+  <line x1="100.0" y1="116.8" x2="104.8" y2="125.6" stroke="#f08c00" stroke-width="1.6"/>
+  <circle cx="90.0" cy="300.0" r="3.6" fill="#212529"/><circle cx="402.0" cy="300.0" r="3.6" fill="#212529"/><circle cx="90.0" cy="98.4" r="3.6" fill="#212529"/>
+  <text x="74" y="318" text-anchor="middle" font-size="15" fill="#212529">C</text><text x="416" y="304" text-anchor="middle" font-size="15" fill="#212529">B</text><text x="86" y="84" text-anchor="middle" font-size="15" fill="#212529">A</text>
+  <text x="132" y="120" text-anchor="start" font-size="14" fill="#f08c00">90°−θ</text>
+  <text x="378" y="260" text-anchor="middle" font-size="16" fill="#e03131">θ</text>
+  <text x="246" y="324" text-anchor="middle" font-size="13" fill="#868e96">邻边</text>
+  <text x="52" y="199" text-anchor="middle" font-size="13" fill="#868e96">对边</text>
+  <text x="276" y="189" text-anchor="middle" font-size="14" fill="#1c7ed6">斜边</text>
+  <text x="440" y="140" text-anchor="start" font-size="15" fill="#212529">对 θ 而言：</text>
+  <text x="440" y="172" text-anchor="start" font-size="15" fill="#e03131">sin θ = 对边 / 斜边</text>
+  <text x="440" y="200" text-anchor="start" font-size="15" fill="#e03131">cos θ = 邻边 / 斜边</text>
+  <text x="440" y="228" text-anchor="start" font-size="15" fill="#e03131">tan θ = 对边 / 邻边</text>
+  <text x="440" y="268" text-anchor="start" font-size="13" fill="#868e96">把 θ 换成 90°−θ，对边</text>
+  <text x="440" y="292" text-anchor="start" font-size="13" fill="#868e96">邻边互换，所以：</text>
+  <text x="440" y="320" text-anchor="start" font-size="15" fill="#f08c00">sin(90°−θ) = cos θ</text>
+</svg>
