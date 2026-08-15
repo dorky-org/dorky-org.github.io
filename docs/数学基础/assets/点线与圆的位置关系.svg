@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 345" width="700" height="345" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="700" height="345" fill="#ffffff"/>
+  <text x="350" y="32" text-anchor="middle" font-size="16" fill="#212529">点、直线与圆的位置关系</text>
+  <circle cx="165.0" cy="165.0" r="80.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/>
+  <line x1="165.0" y1="165.0" x2="136.1" y2="199.5" stroke="#2f9e44" stroke-width="1.6" stroke-dasharray="5 4"/><line x1="165.0" y1="165.0" x2="165.0" y2="85.0" stroke="#f08c00" stroke-width="1.6" stroke-dasharray="5 4"/><line x1="165.0" y1="165.0" x2="278.1" y2="210.7" stroke="#e03131" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <circle cx="165.0" cy="165.0" r="3.6" fill="#212529"/><circle cx="136.1" cy="199.5" r="4.2" fill="#2f9e44"/><circle cx="165.0" cy="85.0" r="4.2" fill="#f08c00"/><circle cx="278.1" cy="210.7" r="4.2" fill="#e03131"/>
+  <text x="149" y="181" text-anchor="middle" font-size="13" fill="#212529">O</text>
+  <text x="106" y="217" text-anchor="middle" font-size="13" fill="#2f9e44">d &lt; r</text>
+  <text x="161" y="71" text-anchor="middle" font-size="13" fill="#f08c00">d = r</text>
+  <text x="294" y="229" text-anchor="middle" font-size="13" fill="#e03131">d &gt; r</text>
+  <text x="165" y="300" text-anchor="middle" font-size="15" fill="#212529">点与圆</text>
+  <text x="165" y="324" text-anchor="middle" font-size="13" fill="#868e96">点到圆心距离 d 与半径 r 比较</text>
+  <line x1="382.0" y1="47.0" x2="618.0" y2="47.0" stroke="#e03131" stroke-width="2.4"/>
+  <text x="628" y="52" text-anchor="start" font-size="12" fill="#e03131">相离  d &gt; r</text>
+  <line x1="382.0" y1="85.0" x2="618.0" y2="85.0" stroke="#f08c00" stroke-width="2.4"/>
+  <text x="628" y="90" text-anchor="start" font-size="12" fill="#f08c00">相切  d = r</text>
+  <line x1="382.0" y1="123.0" x2="618.0" y2="123.0" stroke="#2f9e44" stroke-width="2.4"/>
+  <text x="628" y="128" text-anchor="start" font-size="12" fill="#2f9e44">相交  d &lt; r</text>
+  <circle cx="500.0" cy="165.0" r="80.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/><circle cx="500.0" cy="165.0" r="3.6" fill="#212529"/><text x="484" y="183" text-anchor="middle" font-size="13" fill="#212529">O</text>
+  <text x="470" y="300" text-anchor="middle" font-size="15" fill="#212529">直线与圆</text><text x="470" y="324" text-anchor="middle" font-size="13" fill="#868e96">圆心到直线距离 d 与半径 r 比较</text>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="700" height="400" fill="#ffffff"/>
+  <text x="350" y="32" text-anchor="middle" font-size="16" fill="#212529">三角形的重心与垂心</text>
+  <polygon points="130.0,120.0 70.0,300.0 310.0,300.0" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2.2"/>
+  <line x1="130.0" y1="120.0" x2="190.0" y2="300.0" stroke="#2f9e44" stroke-width="1.8" stroke-dasharray="6 4"/><circle cx="190.0" cy="300.0" r="3.2" fill="#2f9e44"/>
+  <line x1="70.0" y1="300.0" x2="220.0" y2="210.0" stroke="#2f9e44" stroke-width="1.8" stroke-dasharray="6 4"/><circle cx="220.0" cy="210.0" r="3.2" fill="#2f9e44"/>
+  <line x1="310.0" y1="300.0" x2="100.0" y2="210.0" stroke="#2f9e44" stroke-width="1.8" stroke-dasharray="6 4"/><circle cx="100.0" cy="210.0" r="3.2" fill="#2f9e44"/>
+  
+  <line x1="144.5" y1="179.2" x2="154.0" y2="176.0" stroke="#7048e8" stroke-width="1.8"/>
+  <line x1="146.0" y1="184.0" x2="155.5" y2="180.8" stroke="#7048e8" stroke-width="1.8"/>
+  <line x1="175.3" y1="271.6" x2="184.7" y2="268.4" stroke="#7048e8" stroke-width="1.8"/>
+  <circle cx="170.0" cy="240.0" r="5.5" fill="#f08c00"/><text x="188" y="232" text-anchor="middle" font-size="14" fill="#f08c00">G</text>
+  <text x="130" y="106" text-anchor="middle" font-size="14" fill="#212529">A</text><text x="56" y="320" text-anchor="middle" font-size="14" fill="#212529">B</text><text x="324" y="320" text-anchor="middle" font-size="14" fill="#212529">C</text>
+  <text x="190" y="352" text-anchor="middle" font-size="15" fill="#212529">重心 G：三条中线的交点</text><text x="190" y="376" text-anchor="middle" font-size="13" fill="#868e96">AG : GM = 2 : 1，且 G = (A+B+C)/3</text>
+  <polygon points="470.0,120.0 410.0,300.0 650.0,300.0" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2.2"/>
+  <line x1="470.0" y1="120.0" x2="470.0" y2="300.0" stroke="#2f9e44" stroke-width="1.8" stroke-dasharray="6 4"/><circle cx="470.0" cy="300.0" r="3.2" fill="#2f9e44"/><polyline points="470.0,292.0 478.0,292.0 478.0,300.0" fill="none" stroke="#2f9e44" stroke-width="1.6"/>
+  <line x1="410.0" y1="300.0" x2="530.0" y2="180.0" stroke="#2f9e44" stroke-width="1.8" stroke-dasharray="6 4"/><circle cx="530.0" cy="180.0" r="3.2" fill="#2f9e44"/><polyline points="524.3,185.7 530.0,191.3 535.7,185.7" fill="none" stroke="#2f9e44" stroke-width="1.6"/>
+  <line x1="650.0" y1="300.0" x2="434.0" y2="228.0" stroke="#2f9e44" stroke-width="1.8" stroke-dasharray="6 4"/><circle cx="434.0" cy="228.0" r="3.2" fill="#2f9e44"/><polyline points="441.6,230.5 439.1,238.1 431.5,235.6" fill="none" stroke="#2f9e44" stroke-width="1.6"/>
+  <circle cx="470.0" cy="240.0" r="5.5" fill="#f08c00"/><text x="454" y="230" text-anchor="middle" font-size="14" fill="#f08c00">H</text>
+  <text x="470" y="106" text-anchor="middle" font-size="14" fill="#212529">A</text><text x="396" y="320" text-anchor="middle" font-size="14" fill="#212529">B</text><text x="664" y="320" text-anchor="middle" font-size="14" fill="#212529">C</text>
+  <text x="530" y="352" text-anchor="middle" font-size="15" fill="#212529">垂心 H：三条高的交点</text><text x="530" y="376" text-anchor="middle" font-size="13" fill="#868e96">高即顶点到对边的垂线</text>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 350" width="480" height="350" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="480" height="350" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" fill="#212529">垂径定理</text>
+  <circle cx="240.0" cy="150.0" r="100.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/>
+  <line x1="156.5" y1="205.0" x2="323.5" y2="205.0" stroke="#e03131" stroke-width="2.6"/>
+  <line x1="240.0" y1="150.0" x2="240.0" y2="250.0" stroke="#2f9e44" stroke-width="2.4"/>
+  <line x1="240.0" y1="150.0" x2="156.5" y2="205.0" stroke="#868e96" stroke-width="1.6" stroke-dasharray="5 4"/><line x1="240.0" y1="150.0" x2="323.5" y2="205.0" stroke="#868e96" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <polyline points="251.0,205.0 251.0,194.0 240.0,194.0" fill="none" stroke="#2f9e44" stroke-width="1.6"/>
+  
+  <line x1="198.2" y1="211.0" x2="198.2" y2="199.0" stroke="#e03131" stroke-width="1.8"/>
+  <line x1="281.8" y1="211.0" x2="281.8" y2="199.0" stroke="#e03131" stroke-width="1.8"/>
+  <circle cx="240.0" cy="150.0" r="3.8" fill="#212529"/><circle cx="240.0" cy="205.0" r="4.2" fill="#2f9e44"/><circle cx="156.5" cy="205.0" r="4.2" fill="#e03131"/><circle cx="323.5" cy="205.0" r="4.2" fill="#e03131"/>
+  <text x="142" y="219" text-anchor="middle" font-size="14" fill="#e03131">A</text><text x="338" y="219" text-anchor="middle" font-size="14" fill="#e03131">B</text><text x="240" y="272" text-anchor="middle" font-size="14" fill="#2f9e44">D</text>
+  <text x="224" y="144" text-anchor="middle" font-size="13" fill="#212529">O</text><text x="256" y="197" text-anchor="middle" font-size="13" fill="#2f9e44">M</text>
+  <text x="240" y="300" text-anchor="middle" font-size="15" fill="#212529">直径 OD ⊥ 弦 AB 于 M，则 AM = MB</text>
+  <text x="240" y="326" text-anchor="middle" font-size="13" fill="#868e96">连 OA、OB 得等腰三角形，三线合一</text>
+</svg>

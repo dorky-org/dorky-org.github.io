@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 345" width="720" height="345" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="720" height="345" fill="#ffffff"/>
+  <text x="360" y="30" text-anchor="middle" font-size="16" fill="#212529">圆幂定理的三种情形</text>
+  <circle cx="110.0" cy="175.0" r="58.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/>
+  <line x1="65.6" y1="137.7" x2="160.2" y2="204.0" stroke="#868e96" stroke-width="1.8"/><line x1="120.1" y1="117.9" x2="65.6" y2="212.3" stroke="#868e96" stroke-width="1.8"/>
+  <line x1="65.6" y1="137.7" x2="120.1" y2="117.9" stroke="#e03131" stroke-width="1.6" stroke-dasharray="4 3"/><line x1="65.6" y1="212.3" x2="160.2" y2="204.0" stroke="#f08c00" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <circle cx="96.2" cy="159.2" r="3.8" fill="#212529"/><circle cx="65.6" cy="137.7" r="3.8" fill="#1c7ed6"/><circle cx="160.2" cy="204.0" r="3.8" fill="#1c7ed6"/><circle cx="120.1" cy="117.9" r="3.8" fill="#1c7ed6"/><circle cx="65.6" cy="212.3" r="3.8" fill="#1c7ed6"/>
+  <text x="56" y="134" text-anchor="middle" font-size="13" fill="#212529">A</text><text x="172" y="206" text-anchor="middle" font-size="13" fill="#212529">B</text><text x="118" y="106" text-anchor="middle" font-size="13" fill="#212529">C</text><text x="52" y="220" text-anchor="middle" font-size="13" fill="#212529">D</text>
+  <text x="100" y="175" text-anchor="middle" font-size="13" fill="#212529">P</text>
+  <text x="110" y="282" text-anchor="middle" font-size="15" fill="#212529">相交弦</text><text x="110" y="306" text-anchor="middle" font-size="12" fill="#868e96">P 在圆内</text><text x="110" y="326" text-anchor="middle" font-size="13" fill="#212529">PA·PB = PC·PD</text>
+  <circle cx="340.0" cy="175.0" r="58.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/>
+  <line x1="468.0" y1="175.0" x2="319.2" y2="229.2" stroke="#868e96" stroke-width="1.8"/><line x1="468.0" y1="175.0" x2="308.6" y2="126.3" stroke="#868e96" stroke-width="1.8"/>
+  <line x1="390.7" y1="203.1" x2="393.3" y2="152.2" stroke="#e03131" stroke-width="1.6" stroke-dasharray="4 3"/><line x1="308.6" y1="126.3" x2="319.2" y2="229.2" stroke="#f08c00" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <circle cx="468.0" cy="175.0" r="3.8" fill="#212529"/><circle cx="390.7" cy="203.1" r="3.8" fill="#1c7ed6"/><circle cx="319.2" cy="229.2" r="3.8" fill="#1c7ed6"/><circle cx="393.3" cy="152.2" r="3.8" fill="#1c7ed6"/><circle cx="308.6" cy="126.3" r="3.8" fill="#1c7ed6"/>
+  <text x="379" y="201" text-anchor="middle" font-size="13" fill="#212529">A</text><text x="325" y="219" text-anchor="middle" font-size="13" fill="#212529">B</text><text x="381" y="164" text-anchor="middle" font-size="13" fill="#212529">C</text><text x="317" y="140" text-anchor="middle" font-size="13" fill="#212529">D</text>
+  <text x="484" y="179" text-anchor="middle" font-size="13" fill="#212529">P</text>
+  <text x="340" y="282" text-anchor="middle" font-size="15" fill="#212529">割线</text><text x="340" y="306" text-anchor="middle" font-size="12" fill="#868e96">P 在圆外</text><text x="340" y="326" text-anchor="middle" font-size="13" fill="#212529">PA·PB = PC·PD</text>
+  <circle cx="570.0" cy="175.0" r="58.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/>
+  <line x1="690.0" y1="211.0" x2="512.2" y2="170.0" stroke="#868e96" stroke-width="1.8"/><line x1="690.0" y1="211.0" x2="610.5" y2="133.5" stroke="#2f9e44" stroke-width="2.2"/>
+  <line x1="610.5" y1="133.5" x2="624.1" y2="195.8" stroke="#e03131" stroke-width="1.6" stroke-dasharray="4 3"/><line x1="610.5" y1="133.5" x2="512.2" y2="170.0" stroke="#f08c00" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <circle cx="690.0" cy="211.0" r="3.8" fill="#212529"/><circle cx="624.1" cy="195.8" r="3.8" fill="#1c7ed6"/><circle cx="512.2" cy="170.0" r="3.8" fill="#1c7ed6"/><circle cx="610.5" cy="133.5" r="3.8" fill="#2f9e44"/>
+  <text x="610" y="198" text-anchor="middle" font-size="13" fill="#212529">A</text><text x="518" y="160" text-anchor="middle" font-size="13" fill="#212529">B</text><text x="604" y="121" text-anchor="middle" font-size="13" fill="#2f9e44">T</text>
+  <text x="706" y="215" text-anchor="middle" font-size="13" fill="#212529">P</text>
+  <text x="570" y="282" text-anchor="middle" font-size="15" fill="#212529">切割线</text><text x="570" y="306" text-anchor="middle" font-size="12" fill="#868e96">PT 切线</text><text x="570" y="326" text-anchor="middle" font-size="13" fill="#212529">PT² = PA·PB</text>
+</svg>

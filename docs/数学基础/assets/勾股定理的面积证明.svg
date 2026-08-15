@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+  <text x="320" y="32" text-anchor="middle" font-size="16" fill="#212529">勾股定理的面积证明</text>
+  <polygon points="160,60 300,150 210,290 70,200" fill="#d3f9d8"/>
+  <polygon points="70,60 160,60 70,200" fill="#ffe8cc"/>
+  <polygon points="160,60 300,60 300,150" fill="#ffe8cc"/>
+  <polygon points="300,150 300,290 210,290" fill="#ffe8cc"/>
+  <polygon points="210,290 70,290 70,200" fill="#ffe8cc"/>
+  <rect x="70" y="60" width="230" height="230" fill="none" stroke="#495057" stroke-width="2"/>
+  <polygon points="160,60 300,150 210,290 70,200" fill="none" stroke="#2f9e44" stroke-width="2.2"/>
+  <text x="115.0" y="48" text-anchor="middle" font-size="15" fill="#e8590c">a</text>
+  <text x="230.0" y="48" text-anchor="middle" font-size="15" fill="#e8590c">b</text>
+  <text x="217" y="130" text-anchor="middle" font-size="15" fill="#2f9e44">c</text>
+  <text x="360" y="150" text-anchor="start" font-size="15" fill="#495057">(a+b)² = 4 × ½ab + c²</text>
+  <text x="360" y="192" text-anchor="start" font-size="15" fill="#495057">a²+2ab+b² = 2ab + c²</text>
+  <text x="360" y="238" text-anchor="start" font-size="18" fill="#212529">a² + b² = c²</text>
+  <text x="320" y="352" text-anchor="middle" font-size="13" fill="#495057">大正方形 = 四个直角三角形 + 中间边长 c 的正方形</text>
+</svg>

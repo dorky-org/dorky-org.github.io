@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" width="700" height="430" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="700" height="430" fill="#ffffff"/>
+  <text x="350" y="30" text-anchor="middle" font-size="16" fill="#212529">角平分线定理与它的证明辅助线</text>
+  <polygon points="60.0,370.0 240.0,370.0 114.0,244.0" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2.4"/>
+  <line x1="114.0" y1="244.0" x2="138.3" y2="370.0" stroke="#e03131" stroke-width="2.4"/>
+  <path d="M 96.7 284.4 A 44 44 0 0 0 122.3 287.2" fill="none" stroke="#e03131" stroke-width="2"/><line x1="110.0" y1="280.8" x2="108.5" y2="294.7" stroke="#e03131" stroke-width="2"/>
+  <path d="M 122.3 287.2 A 44 44 0 0 0 145.1 275.1" fill="none" stroke="#e03131" stroke-width="2"/><line x1="131.3" y1="276.7" x2="137.9" y2="289.1" stroke="#e03131" stroke-width="2"/>
+  <circle cx="138.3" cy="370.0" r="4" fill="#e03131"/>
+  <text x="114" y="230" text-anchor="middle" font-size="15" fill="#212529">A</text>
+  <text x="46" y="390" text-anchor="middle" font-size="15" fill="#212529">B</text>
+  <text x="254" y="390" text-anchor="middle" font-size="15" fill="#212529">C</text>
+  <text x="138" y="392" text-anchor="middle" font-size="15" fill="#e03131">D</text>
+  <text x="150" y="410" text-anchor="middle" font-size="15" fill="#212529">AD 平分 ∠A  ⟹  AB : AC = BD : DC</text>
+  <polygon points="408.0,370.0 588.0,370.0 462.0,244.0" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2.4"/>
+  <line x1="462.0" y1="244.0" x2="532.2" y2="80.2" stroke="#1c7ed6" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="588.0" y1="370.0" x2="532.2" y2="80.2" stroke="#2f9e44" stroke-width="2.2" stroke-dasharray="6 4"/>
+  <line x1="462.0" y1="244.0" x2="486.3" y2="370.0" stroke="#e03131" stroke-width="2.4"/>
+  
+  <line x1="501.6" y1="166.8" x2="490.6" y2="162.0" stroke="#2f9e44" stroke-width="1.8"/>
+  <line x1="503.6" y1="162.2" x2="492.6" y2="157.4" stroke="#2f9e44" stroke-width="1.8"/>
+  
+  <line x1="519.0" y1="309.5" x2="527.5" y2="301.0" stroke="#2f9e44" stroke-width="1.8"/>
+  <line x1="522.5" y1="313.0" x2="531.0" y2="304.5" stroke="#2f9e44" stroke-width="1.8"/>
+  <path d="M 446.2 280.8 A 40 40 0 0 0 469.6 283.3" fill="none" stroke="#e03131" stroke-width="2"/><line x1="458.5" y1="276.8" x2="457.0" y2="290.7" stroke="#e03131" stroke-width="2"/>
+  <path d="M 469.6 283.3 A 40 40 0 0 0 490.3 272.3" fill="none" stroke="#e03131" stroke-width="2"/><line x1="477.5" y1="273.2" x2="484.0" y2="285.5" stroke="#e03131" stroke-width="2"/>
+  <circle cx="486.3" cy="370.0" r="4" fill="#e03131"/>
+  <circle cx="532.2" cy="80.2" r="4" fill="#2f9e44"/>
+  <text x="548" y="85" text-anchor="start" font-size="15" fill="#2f9e44">E</text>
+  <text x="444" y="249" text-anchor="end" font-size="15" fill="#212529">A</text>
+  <text x="394" y="390" text-anchor="middle" font-size="15" fill="#212529">B</text>
+  <text x="602" y="390" text-anchor="middle" font-size="15" fill="#212529">C</text>
+  <text x="486" y="392" text-anchor="middle" font-size="15" fill="#e03131">D</text>
+  <text x="500" y="410" text-anchor="middle" font-size="15" fill="#212529">过 C 作 CE ∥ AD，则 AE = AC</text>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 480" width="650" height="480" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="650" height="480" fill="#ffffff"/>
+  <text x="325" y="26" text-anchor="middle" font-size="16" fill="#212529">欧拉线</text>
+  <circle cx="300.0" cy="250.0" r="210.8" fill="none" stroke="#adb5bd" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <polygon points="281.6,40.0 96.4,304.6 498.1,322.1" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2.4"/>
+  <line x1="281.6" y1="40.0" x2="276.1" y2="166.7" stroke="#2f9e44" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="269.7" cy="312.1" r="3.2" fill="#2f9e44"/>
+  <line x1="96.4" y1="304.6" x2="276.1" y2="166.7" stroke="#2f9e44" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="340.7" cy="117.1" r="3.2" fill="#2f9e44"/>
+  <line x1="498.1" y1="322.1" x2="276.1" y2="166.7" stroke="#2f9e44" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="220.3" cy="127.6" r="3.2" fill="#2f9e44"/>
+  <polyline points="260.8,311.7 261.1,302.7 270.1,303.1" fill="none" stroke="#2f9e44" stroke-width="1.5"/>
+  <polyline points="346.2,124.2 339.1,129.7 333.6,122.5" fill="none" stroke="#2f9e44" stroke-width="1.5"/>
+  <polyline points="225.5,120.2 232.8,125.4 227.7,132.8" fill="none" stroke="#2f9e44" stroke-width="1.5"/>
+  <line x1="300.0" y1="250.0" x2="267.7" y2="137.5" stroke="#7048e8" stroke-width="2.6"/>
+  
+  <line x1="300.8" y1="234.7" x2="291.2" y2="237.5" stroke="#7048e8" stroke-width="1.8"/>
+  <line x1="288.9" y1="193.1" x2="279.3" y2="195.8" stroke="#7048e8" stroke-width="1.8"/>
+  <circle cx="300.0" cy="250.0" r="5.5" fill="#212529"/><circle cx="292.0" cy="222.2" r="5.5" fill="#f08c00"/><circle cx="276.1" cy="166.7" r="5.5" fill="#e03131"/>
+  <circle cx="281.6" cy="40.0" r="4" fill="#1c7ed6"/><circle cx="96.4" cy="304.6" r="4" fill="#1c7ed6"/><circle cx="498.1" cy="322.1" r="4" fill="#1c7ed6"/>
+  <text x="280" y="268" text-anchor="middle" font-size="15" fill="#212529">O</text>
+  <text x="288" y="206" text-anchor="middle" font-size="15" fill="#f08c00">G</text>
+  <text x="296" y="169" text-anchor="middle" font-size="15" fill="#e03131">H</text>
+  <text x="300" y="38" text-anchor="middle" font-size="14" fill="#212529">A</text><text x="78" y="311" text-anchor="middle" font-size="14" fill="#212529">B</text><text x="516" y="332" text-anchor="middle" font-size="14" fill="#212529">C</text>
+  <text x="355" y="398" text-anchor="middle" font-size="13" fill="#868e96">绿色虚线是三条高，直角标记是垂足；紫色线是欧拉线</text>
+  <text x="355" y="420" text-anchor="middle" font-size="15" fill="#212529">外心 O、重心 G、垂心 H 共线（欧拉线）</text>
+  <text x="355" y="444" text-anchor="middle" font-size="13" fill="#868e96">比例始终是 OG : GH = 1 : 2</text>
+</svg>

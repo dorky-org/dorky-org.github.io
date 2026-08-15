@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 240" width="740" height="240" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="740" height="240" fill="#ffffff"/>
+  <text x="370" y="32" text-anchor="middle" font-size="16" fill="#212529">圆与圆的五种位置关系（设 r₁ &gt; r₂，d 为圆心距）</text>
+  <circle cx="48.0" cy="112.0" r="34.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/><circle cx="122.0" cy="112.0" r="22.0" fill="none" stroke="#f08c00" stroke-width="2.2"/>
+  <line x1="48.0" y1="112.0" x2="122.0" y2="112.0" stroke="#868e96" stroke-width="1.4" stroke-dasharray="4 3"/><circle cx="48.0" cy="112.0" r="3" fill="#1c7ed6"/><circle cx="122.0" cy="112.0" r="3" fill="#f08c00"/>
+  <text x="85" y="192" text-anchor="middle" font-size="15" fill="#212529">外离</text><text x="85" y="216" text-anchor="middle" font-size="12" fill="#868e96">d &gt; r₁+r₂</text>
+  <circle cx="202.0" cy="112.0" r="34.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/><circle cx="258.0" cy="112.0" r="22.0" fill="none" stroke="#f08c00" stroke-width="2.2"/>
+  <line x1="202.0" y1="112.0" x2="258.0" y2="112.0" stroke="#868e96" stroke-width="1.4" stroke-dasharray="4 3"/><circle cx="202.0" cy="112.0" r="3" fill="#1c7ed6"/><circle cx="258.0" cy="112.0" r="3" fill="#f08c00"/>
+  <text x="230" y="192" text-anchor="middle" font-size="15" fill="#212529">外切</text><text x="230" y="216" text-anchor="middle" font-size="12" fill="#868e96">d = r₁+r₂</text>
+  <circle cx="355.0" cy="112.0" r="34.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/><circle cx="395.0" cy="112.0" r="22.0" fill="none" stroke="#f08c00" stroke-width="2.2"/>
+  <line x1="355.0" y1="112.0" x2="395.0" y2="112.0" stroke="#868e96" stroke-width="1.4" stroke-dasharray="4 3"/><circle cx="355.0" cy="112.0" r="3" fill="#1c7ed6"/><circle cx="395.0" cy="112.0" r="3" fill="#f08c00"/>
+  <text x="375" y="192" text-anchor="middle" font-size="15" fill="#212529">相交</text><text x="375" y="216" text-anchor="middle" font-size="12" fill="#868e96">|r₁−r₂| &lt; d &lt; r₁+r₂</text>
+  <circle cx="514.0" cy="112.0" r="34.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/><circle cx="526.0" cy="112.0" r="22.0" fill="none" stroke="#f08c00" stroke-width="2.2"/>
+  <line x1="514.0" y1="112.0" x2="526.0" y2="112.0" stroke="#868e96" stroke-width="1.4" stroke-dasharray="4 3"/><circle cx="514.0" cy="112.0" r="3" fill="#1c7ed6"/><circle cx="526.0" cy="112.0" r="3" fill="#f08c00"/>
+  <text x="520" y="192" text-anchor="middle" font-size="15" fill="#212529">内切</text><text x="520" y="216" text-anchor="middle" font-size="12" fill="#868e96">d = |r₁−r₂|</text>
+  <circle cx="662.0" cy="112.0" r="34.0" fill="none" stroke="#1c7ed6" stroke-width="2.2"/><circle cx="668.0" cy="112.0" r="22.0" fill="none" stroke="#f08c00" stroke-width="2.2"/>
+  <line x1="662.0" y1="112.0" x2="668.0" y2="112.0" stroke="#868e96" stroke-width="1.4" stroke-dasharray="4 3"/><circle cx="662.0" cy="112.0" r="3" fill="#1c7ed6"/><circle cx="668.0" cy="112.0" r="3" fill="#f08c00"/>
+  <text x="665" y="192" text-anchor="middle" font-size="15" fill="#212529">内含</text><text x="665" y="216" text-anchor="middle" font-size="12" fill="#868e96">d &lt; |r₁−r₂|</text>
+</svg>

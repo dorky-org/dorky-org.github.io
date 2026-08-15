@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" width="620" height="400" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <rect x="0" y="0" width="620" height="400" fill="#ffffff"/>
+  <text x="310" y="30" text-anchor="middle" font-size="16" fill="#212529">l₁ ⊥ l₂ ⟺ k₁k₂ = −1</text>
+  <line x1="70.0" y1="290.0" x2="590.0" y2="290.0" stroke="#868e96" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <line x1="240.5" y1="352.6" x2="600.0" y2="99.6" stroke="#1c7ed6" stroke-width="1.6" stroke-dasharray="6 4"/><line x1="403.8" y1="395.4" x2="158.0" y2="45.0" stroke="#f08c00" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <polygon points="330.0,290.0 585.6,290.0 585.6,111.0" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2"/>
+  <polygon points="195.8,98.3 195.8,290.0 330.0,290.0" fill="#ffe8cc" stroke="#f08c00" stroke-width="2"/>
+  <line x1="585.6" y1="111.0" x2="585.6" y2="290.0" stroke="#e03131" stroke-width="1.8" stroke-dasharray="5 4"/><line x1="195.8" y1="98.3" x2="195.8" y2="290.0" stroke="#e03131" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <polyline points="585.6,300.0 575.6,300.0 575.6,290.0" fill="none" stroke="#1c7ed6" stroke-width="1.6"/><polyline points="195.8,300.0 205.8,300.0 205.8,290.0" fill="none" stroke="#f08c00" stroke-width="1.6"/>
+  <path d="M 360.0 290.0 A 30 30 0 0 0 354.6 272.8" fill="none" stroke="#2f9e44" stroke-width="1.8"/>
+  <line x1="353.8" y1="282.5" x2="363.4" y2="279.5" stroke="#2f9e44" stroke-width="1.6"/>
+  <path d="M 195.8 124.3 A 26 26 0 0 0 210.7 119.6" fill="none" stroke="#2f9e44" stroke-width="1.8"/>
+  <line x1="202.1" y1="118.3" x2="205.1" y2="127.9" stroke="#2f9e44" stroke-width="1.6"/>
+  <circle cx="330.0" cy="290.0" r="4.4" fill="#212529"/><circle cx="585.6" cy="111.0" r="4.2" fill="#1c7ed6"/><circle cx="195.8" cy="98.3" r="4.2" fill="#f08c00"/><circle cx="585.6" cy="290.0" r="3.6" fill="#e03131"/><circle cx="195.8" cy="290.0" r="3.6" fill="#e03131"/>
+  <text x="324" y="312" text-anchor="middle" font-size="15" fill="#212529">P</text>
+  <text x="600" y="105" text-anchor="middle" font-size="15" fill="#1c7ed6">A</text>
+  <text x="182" y="90" text-anchor="middle" font-size="15" fill="#f08c00">B</text>
+  <text x="590" y="310" text-anchor="middle" font-size="13" fill="#e03131">C</text>
+  <text x="192" y="310" text-anchor="middle" font-size="13" fill="#e03131">D</text>
+  <text x="360" y="276" text-anchor="middle" font-size="14" fill="#2f9e44">θ</text>
+  <text x="164" y="132" text-anchor="middle" font-size="14" fill="#2f9e44">θ</text>
+  <text x="610" y="76" text-anchor="middle" font-size="15" fill="#1c7ed6">l₁</text>
+  <text x="145" y="40" text-anchor="middle" font-size="15" fill="#f08c00">l₂</text>
+  <text x="310" y="370" text-anchor="middle" font-size="14" fill="#212529">△PCA ∽ △BDP（AA：直角对应，∠CPA = ∠DBP = θ）</text>
+</svg>
