@@ -9,8 +9,8 @@ hero:
       text: 从数学基础开始
       link: /数学基础/
     - theme: alt
-      text: 编程学习路径
-      link: /编程基础/学习路径
+      text: 编程基础笔记
+      link: /编程基础/
 features:
   - title: 以具身智能为标尺
     details: 内容取舍标准是"对具身智能是否有用"，不是"考试考不考"
