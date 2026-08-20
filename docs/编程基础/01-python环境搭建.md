@@ -1,11 +1,13 @@
+# 01-python环境搭建
+
 + 学习目标
     - 搭建环境，安装 Python 和 PyCharm
     - 了解如何配置
     - 了解新建项目&运行代码
 
-# Python 介绍
+## Python 介绍
 :::info
-+ 了解 Python：什么事 python
++ 了解 Python：什么是 python
 + Python 的应用领域：能在哪些方面找工作
 + Python 的版本：工作开发场景下一般用哪个版本，就学哪个版本
 
@@ -27,7 +29,7 @@
         * **<font style="color:#DF2A3F;">Python 3.7</font>**
         * **<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">Python 3.14.6</font>****<font style="color:#DF2A3F;">（2026-06-10，当前最新正式发行版）</font>**
 
-# 计算机组成
+## 计算机组成
 :::info
 + 了解 CPU 的作用
 + 了解内存的作用
@@ -36,10 +38,10 @@
 
 ![画板](assets/计算机组成示意图.jpeg)
 
-# Python 基础课程学习路径
+## Python 基础课程学习路径
 ![画板](assets/Python基础课程学习路径图.jpeg)
 
-#  <font style="color:#000000;">解释器的作用 </font>
+## <font style="color:#000000;">解释器的作用 </font>
 Python 解释器的作用：**<font style="color:#DF2A3F;">运行文件</font>**
 
 + Python 解释器种类
@@ -50,7 +52,7 @@ Python 解释器的作用：**<font style="color:#DF2A3F;">运行文件</font>**
         * Jython，运行在 Java 平台的解释器，直接把 Python 代码编译成 Java 字节码执行
         * IromPython：运行在微软.Net 平台上的 Python 解释器，可以直接把 Python 代码编译成.Net 的字节码
 
-# 下载 Python 解释器 🔴
+## 下载 Python 解释器 🔴
 + 下载网址：[https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 
@@ -59,7 +61,7 @@ Python 解释器的作用：**<font style="color:#DF2A3F;">运行文件</font>**
 
 ![](assets/python官网下载页-2.png)
 
-# 安装解释器 🔴
+## 安装解释器 🔴
 + 一路继续就行
 
 ![](assets/python解释器安装向导-1.png)
@@ -76,7 +78,7 @@ Python 解释器的作用：**<font style="color:#DF2A3F;">运行文件</font>**
 
 ![](assets/python解释器安装向导-6.png)
 
-# 配置环境变量&验证 🔴
+## 配置环境变量&验证 🔴
 + 1、查看 python 的安装位置
 + 2、打开终端
 + 3、将 Python 直接拖拽到终端，可以得到 Python 的路径，复制路径
@@ -120,7 +122,7 @@ python3 --version
 
 ![](assets/配置环境变量终端操作-3.png)
 
-# PyCharm 的作用
+## PyCharm 的作用
 PyCharm 是一种 Python IDE（集成开发环境），带有一整套可以帮助用户在使用 Python 语言开发时提高其效率的工具，内部集成的功能如下：
 
 + Project 管理
@@ -136,7 +138,7 @@ PythonCharm 分为专业版（professional）和社区版（community），社�
 
 从 2025.2 开始，JetBrains 合并版本，**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">不再分开社区版 / 专业版安装包</font>**
 
-# PyCharm 下载和安装 🔴
+## PyCharm 下载和安装 🔴
 + 下载网址：[https://www.jetbrains.com.cn/pycharm/download/](https://www.jetbrains.com.cn/pycharm/download/)
 
 ![](assets/PyCharm下载页.png)
@@ -145,14 +147,14 @@ PythonCharm 分为专业版（professional）和社区版（community），社�
 
 ![](assets/PyCharm安装向导.png)
 
-# 新建项目
+## 新建项目
 ![](assets/PyCharm新建项目-1.png)
 
 ![](assets/PyCharm新建项目-2.png)
 
 ![](assets/PyCharm新建项目-3.png)
 
-# 书写代码&运行
+## 书写代码&运行
 + 1、新建文件：【右键】-【New】-【Python File】-【输入文件名】-【OK】
 
 ![](assets/PyCharm新建python文件-1.png)
@@ -169,7 +171,7 @@ PythonCharm 分为专业版（professional）和社区版（community），社�
 
 ![](assets/PyCharm运行结果输出.png)
 
-# 基本设置
+## 基本设置
 ![](assets/PyCharm设置面板总览.png)
 + 1、外观设置
 
@@ -181,10 +183,10 @@ PythonCharm 分为专业版（professional）和社区版（community），社�
 
 ![](assets/PyCharm解释器设置.png)
 
-# Python Console：交互式开发环境
+## Python Console：交互式开发环境
 ![](assets/PyCharm的Console交互环境.png)
 
-# 通过终端运行 python 的 py 文件
+## 通过终端运行 python 的 py 文件
 + 1、进入 python 文件所在目录
 + 2、python3 目标文件
     - 目标文件，可以使用 Tab 补全

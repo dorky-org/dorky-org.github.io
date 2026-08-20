@@ -1,13 +1,15 @@
-# json 读取和写入
+# 05-Python基础知识点补充
+
+## json 读取和写入
 | **函数** | **输入** | **输出** | **什么时候用** |
 | --- | --- | --- | --- |
-| `**<font style="color:#DF2A3F;">json.load(f)</font>**` | 一个**打开的文件对象** | Python 对象（字典/列表） | 从文件读，边读边解析 |
-| `**<font style="color:#DF2A3F;">json.loads(s)</font>**` | 一个**字符串** | Python 对象 | 字符串已经在内存里了（比如网络请求返回的） |
-| `**<font style="color:#DF2A3F;">json.dump(obj, f)</font>**` | Python 对象 + 一个**打开的文件对象** | 无返回值，直接写进文件 | 把结果存成文件 |
-| `**<font style="color:#DF2A3F;">json.dumps(obj)</font>**` | Python 对象 | 一个**字符串** | 只是想看看/打印一下转换后的样子，不落盘 |
+| `json.load(f)` | 一个**打开的文件对象** | Python 对象（字典/列表） | 从文件读，边读边解析 |
+| `json.loads(s)` | 一个**字符串** | Python 对象 | 字符串已经在内存里了（比如网络请求返回的） |
+| `json.dump(obj, f)` | Python 对象 + 一个**打开的文件对象** | 无返回值，直接写进文件 | 把结果存成文件 |
+| `json.dumps(obj)` | Python 对象 | 一个**字符串** | 只是想看看/打印一下转换后的样子，不落盘 |
 
 
-## json 读取本地文件
+### json 读取本地文件
 + 本地 json 文件
 
 ```python
@@ -31,7 +33,7 @@ with open('config.json') as f:
     print(config) # {'learning_rate': 0.001, 'batch_size': 32, 'use_gpu': True, 'layers': [64, 128, 64]}
 ```
 
-## json 读取字符串
+### json 读取字符串
 ```python
 # json字符串
 import json
@@ -47,7 +49,7 @@ result = json.loads(config)
 print(result)
 ```
 
-## json 写入文件
+### json 写入文件
 + 参数 1：json 对象（字典、列表）
 + 参数 2：要存储的文件位置
 + ensure_ascii：是否使用二进制码标识中文
@@ -70,7 +72,7 @@ with open('config2.json', 'w', encoding='utf-8') as f:
     json.dump(json.loads(config), f, ensure_ascii=False, indent=2)
 ```
 
-## json 写入字符串（json 转字符串）
+### json 写入字符串（json 转字符串）
 ```python
 # json字符串
 import json
@@ -95,8 +97,8 @@ print(type(str_config))
 
 ```
 
-# 文件读取&指定编码
-## 使用 with……as 读取文件
+## 文件读取&指定编码
+### 使用 with……as 读取文件
 + 不用手动写 close
 + 程序在中间报错，也会关闭文件的读写
 
@@ -106,7 +108,7 @@ with open('config.json') as f:
     print(f.read())
 ```
 
-## 文件读写指定编码格式
+### 文件读写指定编码格式
 + 不同的系统默认编码格式可能不同，如果不指定编码格式，可能发生错误
 
 ```python
@@ -131,10 +133,10 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0xba in position 8: incomplete
 '''
 ```
 
-# collections
+## collections
 + `collections` 里常用的就四个东西，每个都是为了解决"用普通 `dict`/`list` 会很别扭"的某个具体场景
 
-## 统计次数： Counter
+### 统计次数： Counter
 + 不使用Counter，需要自己遍历
 
 ```python
@@ -161,7 +163,7 @@ print(count2)   # Counter({'猫': 3, '狗': 2, '鸟': 1})
 print(count2.most_common(2))   # [('猫', 3), ('狗', 2)]，出现最多的前 2 个
 ```
 
-## 按类别分组： defaultdict
+### 按类别分组： defaultdict
 + 想把数据按类别分组，这样写是不对的
     - 因为 `"水果"` 第一次出现时，`groups["水果"]` 这个键根本不存在，没法对不存在的键调用 `.append()`
 
@@ -208,7 +210,7 @@ for category, item in records:
 print(groups) # defaultdict(<class 'list'>, {'水果': ['苹果', '香蕉'], '蔬菜': ['白菜']})
 ```
 
-## 固定长度的滑动窗口：deque
+### 固定长度的滑动窗口：deque
 > 这个和你后面要做的东西关系最直接。**传感器数据"只保留最近 N 个读数"是个极常见的需求**（比如给 IMU 数据做滑动平均滤波），用列表实现的话，从头部删除数据效率很差；`deque` 天生就是为这个场景设计的，`maxlen` 参数一设，满了自动把最老的挤出去：
 >
 
@@ -229,7 +231,7 @@ for reading in [1.0, 2.0, 3.0, 4.0, 5.0]:
 '''
 ```
 
-## 给元组的每一项起名字：namedtuple
+### 给元组的每一项起名字：namedtuple
 裸元组存结构化数据时，只能靠位置取值，读代码的人得记住"第 0 项是 x，第 1 项是 y"
 
 ```python

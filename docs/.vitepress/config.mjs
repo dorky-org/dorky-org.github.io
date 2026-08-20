@@ -129,7 +129,7 @@ export default {
       { icon: 'github', link: 'https://github.com/your-username' }
     ],
 
-    outline: { level: [2, 3], label: '本页目录' },
+    outline: { level: [2, 4], label: '本页目录' },
     docFooter: { prev: '上一页', next: '下一页' },
     darkModeSwitchLabel: '主题',
     returnToTopLabel: '返回顶部',
