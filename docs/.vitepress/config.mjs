@@ -75,7 +75,8 @@ export default {
     // ★ 扩展点 1：以后加分类，这里加一行
     nav: [
       { text: '数学基础', link: '/数学基础/' },
-      { text: '编程基础', link: '/编程基础/' }
+      { text: '编程基础', link: '/编程基础/' },
+      { text: '英语', link: '/英语/' }
       // { text: 'ROS', link: '/ROS/' },
     ],
 

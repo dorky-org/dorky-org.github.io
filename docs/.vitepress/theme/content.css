@@ -1,0 +1,19 @@
+/* 英语课文原文里，单词首次出现时标红（配合单词表使用） */
+.nce-new {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.dark .nce-new {
+  color: #ff8a80;
+}
+
+/* 正文里的人名，不算生词，单独标蓝、不进单词表 */
+.nce-name {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.dark .nce-name {
+  color: #7aa2ff;
+}

@@ -1,0 +1,24 @@
+/* 「英语」板块的逐段点读：鼠标悬停提示可点，点击朗读该段 */
+.read-aloud-target {
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.read-aloud-target:hover {
+  background-color: var(--vp-c-brand-soft);
+}
+
+.read-aloud-target:hover::before {
+  content: '🔊';
+  position: absolute;
+  left: -1.3em;
+  font-size: 0.8em;
+  opacity: 0.55;
+}
+
+.read-aloud-target.read-aloud-active {
+  background-color: var(--vp-c-brand-soft);
+  box-shadow: inset 2px 0 0 var(--vp-c-brand-1);
+}
