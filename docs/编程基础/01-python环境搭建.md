@@ -6,12 +6,9 @@
     - 了解新建项目&运行代码
 
 ## Python 介绍
-:::info
-+ 了解 Python：什么是 python
-+ Python 的应用领域：能在哪些方面找工作
-+ Python 的版本：工作开发场景下一般用哪个版本，就学哪个版本
-
-:::
+> + 了解 Python：什么是 python
+> + Python 的应用领域：能在哪些方面找工作
+> + Python 的版本：工作开发场景下一般用哪个版本，就学哪个版本
 
 + Python 时时下最流行、最火爆的编程语言之一
     - 1、简单（逻辑简单、语法简单）、易学，适应人群广泛
@@ -27,14 +24,11 @@
         * Python 3.5
         * Python 3.6
         * **<font style="color:#DF2A3F;">Python 3.7</font>**
-        * **<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">Python 3.14.6</font>****<font style="color:#DF2A3F;">（2026-06-10，当前最新正式发行版）</font>**
+        * **<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">Python 3.14.6</font>**<font style="color:#DF2A3F;">（2026-06-10，当前最新正式发行版）</font>
 
 ## 计算机组成
-:::info
-+ 了解 CPU 的作用
-+ 了解内存的作用
-
-:::
+> + 了解 CPU 的作用
+> + 了解内存的作用
 
 ![画板](assets/计算机组成示意图.jpeg)
 

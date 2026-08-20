@@ -1,14 +1,11 @@
 # 02-Python入门
 
 ## 注释
-:::info
-注释的作用
-
-注释的分类及语法
-
-注释的特点
-
-:::
+> 注释的作用
+>
+> 注释的分类及语法
+>
+> 注释的特点
 
 ### 注释的作用
 + 注释的作用：通过自己熟悉的语言，在程序中对某些代码进行标注说明，这就是注释的所用，能够大大增强程序的可读性
@@ -52,9 +49,12 @@
 + 严格区分大小写
 
 ```python
-False		None		True		and			as			assert		break		class		continue
-del			elfi		else		except		finally		for			form		global		if	
-import		in			is			lambda		nonlocal	not			or			pass		raise
+False		None		True		and			as			
+assert		break		class		continue
+del			elfi		else		except		
+finally		for			form		global		if	
+import		in			is			lambda		
+nonlocal	not			or			pass		raise
 return		try			while		with		yield
 ```
 
@@ -79,38 +79,29 @@ Debug 工具是 PyCharm IDE 中集成的用来调试程序的工具。在这里�
     - 1、打断点
     - 2、Debug 调试
 
-:::info
-打断点
+> 打断点
+>
+> + 1、断点位置
+>     - 目标要调试的代码块的第一行代码即可，即一个段段即可。
+> + 2、打断点的方法
+>     - 单机目前代码的行号右侧空白位置
+>
+> ![](assets/PyCharm打断点操作.png)
+> ![](assets/PyCharm断点标记效果.png)
 
-+ 1、断点位置
-    - 目标要调试的代码块的第一行代码即可，即一个段段即可。
-+ 2、打断点的方法
-    - 单机目前代码的行号右侧空白位置
-
-![](assets/PyCharm打断点操作.png)
-![](assets/PyCharm断点标记效果.png)
-
-:::
-
-:::info
-调试程序
-
-+ 运行的时候，选择 Debug 模式运行程序
-
-![](assets/PyCharm选择Debug模式运行.png)
-
-![](assets/PyCharm调试面板查看变量.png)
-
-:::
+> 调试程序
+>
+> + 运行的时候，选择 Debug 模式运行程序
+>
+> ![](assets/PyCharm选择Debug模式运行.png)
+>
+> ![](assets/PyCharm调试面板查看变量.png)
 
 ## 输出
-:::info
-+ 格式化输出
-    - 格式化符号
-    - f-字符串
-+ print 结束符
-
-:::
+> + 格式化输出
+>     - 格式化符号
+>     - f-字符串
+> + print 结束符
 
 作用：程序输出内容给用户
 
@@ -233,11 +224,8 @@ print("world")
 ![](assets/print自定义结束符效果.png)
 
 ## 输入
-:::info
-+ 输入功能的语法
-+ 输入 input 的特点
-
-:::
+> + 输入功能的语法
+> + 输入 input 的特点
 
 在 Python 中，程序接收用户输入的数据的功能即是输入。
 
@@ -268,11 +256,8 @@ print(f"输入的用户名是{username},类型是：{type(username)}")
 ![](assets/input输入等待效果.png)
 
 ## 数据类型转换
-:::info
-+ 数据类型转换的必要性
-+ 数据类型转换常用方法
-
-:::
+> + 数据类型转换的必要性
+> + 数据类型转换常用方法
 
 ### 转换数据类型的作用
 > 问： input()接收用户输入的数据都是字符串类型，如果用户输入 1，想要得到整形该如何操作？
